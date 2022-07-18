@@ -14,8 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>ObjectsAndMethods_04</module>
-        <module>Stage4</module>
+        <module>05_Encapsulation</module>
+        <module>04_ObjectsAndMethods</module>
         <module>Stage5</module>
         <module>Stage6</module>
         <module>Stage8</module>
