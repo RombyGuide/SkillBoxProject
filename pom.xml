@@ -14,9 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>05_Encapsulation</module>
         <module>04_ObjectsAndMethods</module>
-        <module>Stage5</module>
+        <module>05_Encapsulation</module>
+        <module>06_StaticFinal</module>
         <module>Stage6</module>
         <module>Stage8</module>
         <module>Stage9</module>
