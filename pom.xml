@@ -21,6 +21,10 @@
         <module>08_NumbersAndDates</module>
         <module>09_StringsAndRegex</module>
         <module>10_CollectionsArray</module>
+        <module>10_CollectionsList</module>
+        <module>10_CollectionsSet</module>
+        <module>10_CollectionsMap</module>
+        <module>10_CollectionsSearch</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
@@ -33,9 +37,5 @@
         <module>Stage18</module>
         <module>Stage19</module>
     </modules>
-
-    <dependencies>
-
-    </dependencies>
 
 </project>
