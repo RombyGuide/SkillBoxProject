@@ -27,6 +27,7 @@
         <module>10_CollectionsSearch</module>
         <module>11_Inheritance</module>
         <module>11_InheritanceAndPolymorphism</module>
+        <module>12_InheritanceAbstractClasses</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
