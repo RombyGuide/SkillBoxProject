@@ -31,6 +31,9 @@
         <module>13_AdvancedOOPFeatures</module>
         <module>13_AdvancedOOPFeatures/practice/LambdaExpressions-Airport</module>
         <module>13_AdvancedOOPFeatures/practice/LambdaExpressions-Employee</module>
+        <module>14_ExceptionsDebuggingAndTesting</module>
+        <module>14_ExceptionsDebuggingAndTesting/ConsoleCustomerList</module>
+        <module>14_ExceptionsDebuggingAndTesting/SPBMetro</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
