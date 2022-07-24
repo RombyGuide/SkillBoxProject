@@ -28,6 +28,9 @@
         <module>11_Inheritance</module>
         <module>11_InheritanceAndPolymorphism</module>
         <module>12_InheritanceAbstractClasses</module>
+        <module>13_AdvancedOOPFeatures</module>
+        <module>13_AdvancedOOPFeatures/practice/LambdaExpressions-Airport</module>
+        <module>13_AdvancedOOPFeatures/practice/LambdaExpressions-Employee</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
