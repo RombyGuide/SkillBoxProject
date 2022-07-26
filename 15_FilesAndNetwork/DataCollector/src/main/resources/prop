@@ -1,0 +1,13 @@
+Document document = Jsoup.connect("https://skillbox-java.github.io/").get();
+Elements stations = document.getElementsByClass("single-station");
+stations.forEach(station -> System.out.println(station.child(1).text()));
+
+Document document = Jsoup.connect("https://skillbox-java.github.io/").get();
+Elements idElem = document.select("#metrodata");
+idElem.forEach(ed -> System.out.println(ed.child(0)));
+
+Document doc = Jsoup.connect("https://skillbox-java.github.io/").get();
+Element stations = doc.
+    getElementsByClass("js-metro-line t-metrostation-list-header t-icon-metroln ln-1").
+        first();
+stations.forEach(id -> System.out.println(id.attr("data-line") + ". " + id.text()));
