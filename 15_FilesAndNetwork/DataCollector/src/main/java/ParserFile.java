@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ParserFile {
     public static void main(String[] args) {
-        String htmlFile = parseFile("04_ObjectsAndMethods/data/code.html");
+        String htmlFile = parseFile("15_FilesAndNetwork/DataCollector/data/code.html");
 
         Document doc = Jsoup.parse(htmlFile);
         Elements elements = doc.select("a.menu__link");
