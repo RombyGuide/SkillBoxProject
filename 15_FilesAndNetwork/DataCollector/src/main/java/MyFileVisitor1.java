@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MyFileVisitor1 {
     public static void main(String[] args) throws Exception {
-        traverse("FilesAndNetwork/DataCollector/data");
+        traverse("15_FilesAndNetwork/DataCollector/data");
     }
 
     private static void traverse(String dir){
@@ -18,10 +18,9 @@ public class MyFileVisitor1 {
             }
         }
         if (file.isFile()) {
-            if (file.getName().endsWith(".csv")
-                    || file.getName().endsWith(".json")) {
+            if (file.getName().endsWith(".json")) {
 //                System.out.println(dir.getAbsolutePath());//change it if needed
-                readAllDataAtOnce(file);
+//                readAllDataAtOnce(file);
             }
         }
     }
