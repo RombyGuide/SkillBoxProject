@@ -7,7 +7,7 @@ public class CopyFileInFolder {
     public static void main(final String[] args) throws IOException {
 
         AtomicLong directoryNumber = new AtomicLong(0);
-        Path start = Paths.get("FilesAndNetwork/DataCollector/data");
+        Path start = Paths.get("15_FilesAndNetwork/DataCollector/data");
 
         Files.walkFileTree(start, new SimpleFileVisitor<Path>() {
             @Override
