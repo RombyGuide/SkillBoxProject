@@ -40,6 +40,7 @@
         <module>15_FilesAndNetwork/ParserHTML</module>
         <module>15_FilesAndNetwork/DataCollector</module>
         <module>15_FilesAndNetwork/ParserPogodaSpB</module>
+        <module>16_SQLAndHibernate/JDBCExp</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
