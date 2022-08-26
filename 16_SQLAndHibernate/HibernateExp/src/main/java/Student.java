@@ -1,5 +1,6 @@
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "Students")
@@ -9,8 +10,21 @@ public class Student {
     private int id;
     private String name;
     private int age;
+
     @Column(name = "registration_date")
     private Date registrationDate;
+
+    @OneToMany
+    @JoinColumn(name = "student_id")
+    private List<Subscription> subscriptions;
+
+    public List<Subscription> getSubscriptions() {
+        return subscriptions;
+    }
+
+    public void setSubscriptions(List<Subscription> subscriptions) {
+        this.subscriptions = subscriptions;
+    }
 
     public int getId() {
         return id;
