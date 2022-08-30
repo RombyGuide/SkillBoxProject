@@ -20,6 +20,9 @@ public class Main {
 
         Session session = sessionFactory.openSession();
 
+        Transaction transaction = session.beginTransaction();
+
+
 ////        Задание 2
 //        Course course = session.get(Course.class, 2);
 //        System.out.println(course.getName().concat(": ") + course.getStudentsCount() + " студентов");
@@ -52,10 +55,23 @@ public class Main {
 //        List<Course> courseList = session.createQuery(query).setMaxResults(5).getResultList();
 //        courseList.forEach(course -> System.out.println(course.getName().concat(" - ") + course.getPrice()));
 
-//        HQL start study
-        String hql = "From " + Course.class.getSimpleName() + " Where price > 120000" + " Order By price";
-        List<Course> courseList = session.createQuery(hql).getResultList();
-        courseList.forEach(course -> System.out.println(course.getName().concat(" - ") + course.getPrice()));
+////        HQL start study
+//        String hql = "From " + Course.class.getSimpleName() + " Where price > 120000" + " Order By price";
+//        List<Course> courseList = session.createQuery(hql).getResultList();
+//        courseList.forEach(course -> System.out.println(course.getName().concat(" - ") + course.getPrice()));
+
+//        Добавление таблицы с данными, на основе данных из другой таблицы 
+        String query = "INSERT INTO " + LinkedPurchaseList.class.getSimpleName() + "(student_id, course_id, student_name, " +
+                "course_name, subscription_date, price) " +
+                "SELECT students.id as student_id, courses.id as course_id, student_name, course_name, subscription_date, " +
+                "purchaselist.price FROM purchaselist " +
+                "JOIN courses on courses.name = course_name " +
+                "JOIN students on students.name = student_name";
+
+        session.createSQLQuery(query).executeUpdate();
+        session.get(LinkedPurchaseList.class, new KeyLinkedPurchaseList(1,10));
+
+        transaction.commit();
         sessionFactory.close();
     }
 }
