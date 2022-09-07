@@ -60,7 +60,7 @@ public class Main {
 //        List<Course> courseList = session.createQuery(hql).getResultList();
 //        courseList.forEach(course -> System.out.println(course.getName().concat(" - ") + course.getPrice()));
 
-//        Добавление таблицы с данными, на основе данных из другой таблицы 
+//        Добавление таблицы с данными, на основе данных из другой таблицы
         String query = "INSERT INTO " + LinkedPurchaseList.class.getSimpleName() + "(student_id, course_id, student_name, " +
                 "course_name, subscription_date, price) " +
                 "SELECT students.id as student_id, courses.id as course_id, student_name, course_name, subscription_date, " +
