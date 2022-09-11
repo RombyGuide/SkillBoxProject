@@ -9,9 +9,9 @@
 Пример
 
 https://skillbox.ru/
-&nbsp https://skillbox.ru/media/
-&nbsp  https://skillbox.ru/media/management/
-&nbsp   https://skillbox.ru/media/management/kak_rat_podkhod/
+&emsp;https://skillbox.ru/media/   
+&emsp;&emsp;https://skillbox.ru/media/management/   
+&emsp;&emsp;&emsp;https://skillbox.ru/media/management/kak_rat_podkhod/
 
 Рекомендации
 
