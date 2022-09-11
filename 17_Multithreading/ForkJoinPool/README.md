@@ -8,10 +8,10 @@
 
 Пример
 
-https://skillbox.ru/
-    https://skillbox.ru/media/
-        https://skillbox.ru/media/management/
-            https://skillbox.ru/media/management/kak_rat_podkhod/
+https://skillbox.ru/  
+&emsp;https://skillbox.ru/media/   
+&emsp;&emsp;https://skillbox.ru/media/management/   
+&emsp;&emsp;&emsp;https://skillbox.ru/media/management/kak_rat_podkhod/
 
 Рекомендации
 
