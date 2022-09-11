@@ -9,7 +9,7 @@
 Пример
 
 https://skillbox.ru/
-&nbsphttps://skillbox.ru/media/
+&nbsp;https://skillbox.ru/media/
 &nbsp&nbsphttps://skillbox.ru/media/management/
 &nbsp&nbsp&nbsphttps://skillbox.ru/media/management/kak_rat_podkhod/
 
