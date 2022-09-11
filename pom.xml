@@ -44,6 +44,8 @@
         <module>16_SQLAndHibernate/HibernateExp</module>
         <module>17_Multithreading/imageResizer</module>
         <module>17_Multithreading/Transactions</module>
+        <module>17_Multithreading/Callable</module>
+        <module>17_Multithreading/ForkJoinPool</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
