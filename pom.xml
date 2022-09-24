@@ -46,6 +46,7 @@
         <module>17_Multithreading/Transactions</module>
         <module>17_Multithreading/Callable</module>
         <module>17_Multithreading/ForkJoinPool</module>
+        <module>18_SpringBootWebDevelopment/ToDoList</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
