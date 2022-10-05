@@ -48,6 +48,7 @@
         <module>17_Multithreading/ForkJoinPool</module>
         <module>18_SpringBootWebDevelopment/ToDoList</module>
         <module>13_AdvancedOOPFeatures/practice/TestTask</module>
+        <module>14_ExceptionsDebuggingAndTesting/Calculator</module>
         <module>Stage8</module>
         <module>Stage9</module>
         <module>Stage10</module>
