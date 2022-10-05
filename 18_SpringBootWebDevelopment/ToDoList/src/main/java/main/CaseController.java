@@ -3,7 +3,7 @@ package main;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import response.Case;
+import main.model.Case;
 
 import java.util.List;
 
