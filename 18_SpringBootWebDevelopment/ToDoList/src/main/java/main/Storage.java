@@ -1,6 +1,6 @@
 package main;
 
-import response.Case;
+import main.model.Case;
 
 import java.util.ArrayList;
 import java.util.HashMap;
